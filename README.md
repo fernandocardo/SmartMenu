@@ -14,5 +14,12 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 ## Autor
 
 -Miguel de Oliveira Gonçalves 
+-Caio ROdrigues Xavier Da Silveira 
+-Guilherme de Oliveira Anastacio
+-Jefferson Alves Xavier
+-Jemerson Soares da Silva
+-Lukauê Cordeiro Alves dos Santos
+-Mariana Parpinelli de Britto
+-Renata Valido dos Santos
 
 ## Agradecimentos
