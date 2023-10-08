@@ -16,7 +16,7 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 ### [Miguel de Oliveira Gonçalves](https://www.linkedin.com/in/miguel-de-oliveira-gon%C3%A7alves-298733247/)
 ### Caio Rodrigues Xavier Da Silveira 
 ### [Guilherme de Oliveira Anastacio](https://www.linkedin.com/in/guilherme-de-oliveira-anast%C3%A1cio-172563b6/)
-### [Jefferson Alves Xavier](https://www.linkedin.com/in/jefferson-xavier-4938a0260/).
+### [Jefferson Alves Xavier](https://www.linkedin.com/in/jefferson-xavier-4938a0260/)
 ### Jemerson Soares da Silva
 ### Lukauê Cordeiro Alves dos Santos
 ### Mariana Parpinelli de Britto
