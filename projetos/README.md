@@ -11,8 +11,15 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 - Bootstrap
  
 
-## Autor
+## Autores
 
--Miguel de Oliveira Gonçalves 
+### [Miguel de Oliveira Gonçalves](https://www.linkedin.com/in/miguel-de-oliveira-gon%C3%A7alves-298733247/)
+### Caio Rodrigues Xavier Da Silveira 
+### Guilherme de Oliveira Anastacio
+### Jefferson Alves Xavier
+### Jemerson Soares da Silva
+### Lukauê Cordeiro Alves dos Santos
+### Mariana Parpinelli de Britto
+### Renata Valido dos Santos 
 
 ## Agradecimentos
