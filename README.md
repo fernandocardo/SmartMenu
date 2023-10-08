@@ -20,6 +20,6 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 -Jemerson Soares da Silva
 -Lukauê Cordeiro Alves dos Santos
 -Mariana Parpinelli de Britto
--Renata Valido dos Santos
+-Renata Valido dos Santos 
 
 ## Agradecimentos
