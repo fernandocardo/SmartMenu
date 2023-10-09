@@ -1,0 +1,126 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Comidas - Produtos</title>
+    <!-- Importe o CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="home.js"></script>
+</head>
+<!-- Isso é um comentário-->
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-white fixed-top" id="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="SmartMenu-Logo.png" alt="Logo do Meu Site" width="100" height="100"
+                    class="d-inline-block align-top" >
+    
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ponteiro" id="contato"
+                            onclick="rolarParaDestino('destino-do-contato')">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <br><br><br><Br><br>
+        <img src="https://cdn-icons-png.flaticon.com/512/5008/5008618.png" alt="Imagem de rolagem"
+            onclick="rolarParaDestino('ponto-de-destino')" width="50" height="50" class="ponteiro float-right">
+        </div>
+    </header>
+    </div>
+    <div class="container btn-group-sm ">
+        <h2>Produtos</h2>
+        <div class="row  ">
+            <div class="col-sm-6 ">
+                <div class="card shadow">
+                    <img src="https://assets.unileversolutions.com/recipes-v2/106684.jpg" alt="X-Salada" id="X-Salada"
+                        width="350" height="350" class="card-img-bottom img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada</h5>
+                        <p class="card-text">Hambúrguer com 100g de carne, Tomate, Salada e Molho especial.</p>
+                        <p class="card-text">Preço: R$ 10</p>
+                        <button class="btn btn-outline-primary" onclick="adicionarAoCarrinho('X-Salada', 10)">Adicionar
+                            ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card shadow">
+                    <img src="https://www.assai.com.br/sites/default/files/blog/batata_frita_com_ketchup_-_tipos_de_batata_frita_no_assai_atacadista.jpg"
+                        alt="Fritas" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Porção de batata frita</h5>
+                        <p class="card-text">Porção de Fritas com Ketchup.</p>
+                        <p class="card-text">Preço: R$ 15</p>
+                        <button class="btn btn-outline-primary "
+                            onclick="adicionarAoCarrinho('Porção de batata frita', 15)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card shadow">
+                    <img src="https://img.freepik.com/fotos-gratis/milk-shake-doce-de-verao-na-ia-generativa-de-fundo-de-mesa-de-madeira_188544-12118.jpg?size=626&amp;ext=jpg"
+                        alt="Fritas" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Milkshake</h5>
+                        <p class="card-text">Milkshakes de diversos sabores.</p>
+                        <p class="card-text">Preço: R$ 12</p>
+                        <button class="btn btn-outline-primary "
+                            onclick="adicionarAoCarrinho('Milkshake', 12)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card shadow">
+                    <img src="https://s3.us-west-2.amazonaws.com/whatsmenu/production/onzeburguer/products/215669/tcombosmashindjpeg"
+                        alt="Fritas" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo 2 Hambúrgueres Refrigerante e Fritas</h5>
+                        <p class="card-text">Super Combo Dois Hambúrgueres Refrigerante e Batata Frita(Serve duas
+                            pessoas).</p>
+                        <p class="card-text">Preço: R$ 35</p>
+                        <button class="btn btn-outline-primary "
+                            onclick="adicionarAoCarrinho('Combo 2 Lanches', 35)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <a id="ponto-de-destino"></a>
+
+        <h1>Carrinho de Compras</h1>
+        <div id="carrinho-conteudo"></div>
+        <p>Total: R$ <span id="total">0.00</span></p>
+        <button class="btn btn-primary" onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+
+
+    <script src="carrinho.js"></script>
+
+
+</body>
+
+</html>

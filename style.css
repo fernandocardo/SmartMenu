@@ -57,6 +57,9 @@ html {
   text-align:right;
 }
 #nav{
+    text-align: center;
+}
+#navbar{
     text-align: right;
 }
 #contact{
@@ -65,6 +68,7 @@ html {
     background-color: black;
     padding: 10px 10px 10px 10px;
     border: #ccc;	
-    
+    text-shadow: blue 1px 1px;
+    box-shadow: blue 1px 1px 1px 1px;
     box-sizing: border-box;
 }
