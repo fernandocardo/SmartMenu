@@ -7,7 +7,6 @@
     <title>Loja de Comidas - Produtos</title>
     <!-- Importe o CSS do Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,9 +16,10 @@
 </head>
 
 <body class="text-center">
-    <nav class="navbar navbar-light bg-white fixed-top" id="navbar">
+    <div class="global">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="navbar">
         <a class="navbar-brand" href="#">
-            <img src="SmartMenu-Logo.png" alt="Logo do Meu Site" width="100" height="100"
+            <img src="SmartMenu-Logo.png" alt="logoSmartMenu" width="100" height="100"
                 class="d-inline-block align-top">
 
         </a>
@@ -30,24 +30,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link ponteiro" id="contato"
+                        onclick="rolarParaDestino('destino-inicio')">Inicio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link ponteiro" id="contato"
                         onclick="rolarParaDestino('destino-planos')">Planos</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="clientes.html">Clientes</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link ponteiro" id="contato"
                         onclick="rolarParaDestino('destino-do-contato')">Contato</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <a id="destino-inicio"></a>
+    
     <br><br><br><br><br>
+    
     <div class="container btn-group-sm">
+        
         <h1>O que é Smart Menu?</h1>
         <h5 class="card-title">O Smart Menu é um serviço de cardápio digital que se baseia na modernidade e praticidade
             para restaurantes, sejam eles pequenos ou grandes. Em vez de oferecer cardápios físicos tradicionais em
@@ -124,7 +130,7 @@
                                 <p class="card-text"> Evita a necessidade de imprimir mapas financeiros em papel, o que
                                     pode ser caro e prejudicial ao meio ambiente.</p>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -144,7 +150,7 @@
                                     qualidade do serviço.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
             <br>
@@ -155,6 +161,7 @@
                             <img src="https://media.gazetadopovo.com.br/2022/06/21171832/restaurante-covid-35-foto-bigstock-960x540.jpg"
                                 alt="Chef tempero" class="card-img-bottom img-fluid" >
                         </div>
+                        <a id="destino-planos"></a>
                         <div class="col-sm-6">
                             <div class="card-body">
                                 <h5 class="card-title">Rastreamento de Dados:</h5>
@@ -162,14 +169,17 @@
                                     preferências dos clientes, o que pode ser relevante para análises de negócios e
                                     estratégias de marketing.</p>
                             </div>
+                        
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <br>
-        <div class="row container container-fluid fa" id="containers">
-             <a id="destino-planos"></a>
+        <br>
+        <div class="row container container-fluid fa" id="containers"> 
+            
             <div class="col-md-4  " id="card">
               <div id="titulo-card">
                 <h2>Básico</h2>
@@ -187,7 +197,7 @@
             </div>
             
             <div  class="col-md-4  " id="card">
-              <div id="titulo-card">
+              <div id="titulo-card">    
                 <h2>Intermediário</h2>
                 <p class="subtitle">Pedidos integrados</p>
                 <p><i class="preço"></i>R$<span>30</span>/mês</p>
@@ -218,17 +228,20 @@
               </div>
             </div>
         </div>
-    </div>
+ 
     <br>
+
     <div class="flex-column align-items-center container align-content-center d-sm-flex" id="contact ">
-        <div class="card-body text-center" id="contact">
-            <a class="col-md-6 link-light" id="destino-do-contato">
+         
+        <a class="col-md-6 link-light" id="destino-do-contato"></a>
+
+        <div class="card-body text-center" id="contact">              
                 <div class="">
                     <h1 id="titulo">Entre em contato:</h1>
                     <p id="subtitulo">Deixe suas informações:</p>
                 </div>
                 <form class=" text-center shadow shadow-lg " id="contact">
-                    <div class="contato " id="">
+                    <div class="contato" id="">
                         <div class="campo" id="">
                             <div class="">
                                 <label for="nome">
@@ -236,7 +249,7 @@
                                         <img src="https://cdn0.iconfinder.com/data/icons/users-android-l-lollipop-icon-pack/24/user-64.png"
                                             alt="mestreCuca" width="40"> Nome:   
                                     </label><br>
-                                <input type="text" , name="nome" , id="nome" class="contato" placeholder="Seu Nome">
+                                <input type="text" , name="nome" , id="nome" class="contato" placeholder="Seu Nome" required>
                             </div>
                             <div class="campo">
                                 <label for="nomerestaurante"><img
@@ -256,11 +269,11 @@
                             <label for="telefone"><img
                                         src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Whatsapp_glyph_svg-64.png"
                                         alt="zapzap" width="35"> Telefone: </label><br>
-                            <input type="tel" placeholder="Telefone" nome="telefone" id="telefone" class="contato">
+                            <input type="tel" placeholder="Telefone" nome="telefone" id="telefone" class="contato" required >
                         </div>
                     </div>
                     <div class="campo ">
-                        <label>Qual o melhor plano para você?</label>
+                        <label>Qual o melhor plano para você?</label>      
                         <label>
                             <input type="radio" name="plano" value="basico" checked> Básico
                         </label>
@@ -273,12 +286,15 @@
                     </div>
                     <div class="">
                         <label for="mensagem" id="perguntas"> Perguntas: </label>
-                        <textarea   style="width: 75%" id="mensagem" name="mensagem" class="bg-white"
+                        <textarea   style="width: 75%" id="mensagem" name="mensagem" id="perguntas" cols="30" rows="10"
+                              class="dark-textarea"  placeholder="Deixe sua mensagem aqui..."    
                             required></textarea>
                         <button type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
         </div>
+    </div>
+</div>
     </body>
 </html>

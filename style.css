@@ -1,6 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;       
+    font-size: 15px;       
 }
 
 textarea{
@@ -29,9 +29,32 @@ textarea{
     width: 100%;
     margin: 1px 1px 3px 1px;
     align-content: center;
-    color: #fff;
+    color: white;
+    color-scheme: dark;
 }
-
+#perguntas{
+    display: inline-block;
+    align-content: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px 50px 100px 50px;
+    width: 100%;
+    margin: 1px 1px 3px 1px;
+    align-content: center;
+    color: white;
+}
+.dark-textarea {
+    background-color: #333; 
+    color: #fff; 
+    width: 75%; 
+    height: 75px;
+    border: none;
+    padding: 5px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    resize: none;
+}
 #header{
     width: 600px;
 }
@@ -61,16 +84,22 @@ html {
 }
 #navbar{
     text-align: right;
+    align-items: right;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    align-self: right;
 }
 #contact{
     text-align: center; 
-    color: #fff;
+    color: black;
     background-color: black;
     padding: 10px 10px 10px 10px;
     border: #ccc;	
-    text-shadow: blue 1px 1px;
-    box-shadow: blue 1px 1px 1px 1px;
+    text-shadow: white 1px 1px;
+    box-shadow: white 1px 1px 1px 1px;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 
 
@@ -80,9 +109,6 @@ html {
     color: white; /* Define a cor do texto como branca */
     padding: 10px; /* Adiciona um espaçamento interno */
 }
-
-
-
 
 #containers{
     width: 1100px;
