@@ -72,3 +72,94 @@ html {
     box-shadow: blue 1px 1px 1px 1px;
     box-sizing: border-box;
 }
+
+
+#titulo {
+    text-align: center;
+    background-color: black; /* Define o fundo como preto */
+    color: white; /* Define a cor do texto como branca */
+    padding: 10px; /* Adiciona um espaçamento interno */
+}
+
+
+
+
+#containers{
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+#containers #card{
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #000000 0%, #00008B 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+#containers #card:hover{
+    transform: scale(1.050);
+}
+
+#containers #card #titulo-card{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+#containers #card #titulo-card h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#containers #card #titulo-card p span{
+    font-size: 40px;
+    padding: 0 5px;
+}
+
+#containers #card #conteudo-card ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+#containers #card #conteudo-card ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+#containers #card #conteudo-card ul li i{
+    margin-right: 4px;
+}
+
+#containers #card #conteudo-card button{
+    width: 120px;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#containers #card #conteudo-card button:hover{
+    background: #17ead9;
+    letter-spacing: 1.2px;
+}
+
+#containers #card #conteudo-card button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+hr{
+    color: transparent;
+}
