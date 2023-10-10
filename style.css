@@ -31,6 +31,7 @@ textarea{
     align-content: center;
     color: white;
     color-scheme: dark;
+    
 }
 #perguntas{
     display: inline-block;
@@ -54,6 +55,7 @@ textarea{
     padding: 5px;  
     font-family: Arial, Helvetica, sans-serif; 
     resize: none;
+    
 }
 #header{
     width: 600px;
@@ -93,21 +95,21 @@ html {
 #contact{
     text-align: center; 
     color: black;
-    background-color: black;
     padding: 10px 10px 10px 10px;
     border: #ccc;	
-    text-shadow: white 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: white 1px 1px 1px 1px;
     box-sizing: border-box;
     border-radius: 30px;
+    background: linear-gradient(135deg, #000000 0%, #00008B 100%);
+
 }
 
 
 #titulo {
-    text-align: center;
-    background-color: black; /* Define o fundo como preto */
-    color: white; /* Define a cor do texto como branca */
-    padding: 10px; /* Adiciona um espaçamento interno */
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
 }
 
 #containers{
