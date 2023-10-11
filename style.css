@@ -2,7 +2,14 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;       
 }
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
 textarea{
     display: inline-block;
     align-content: baseline;
@@ -18,45 +25,7 @@ textarea{
     resize: none;
 }
 
-.contato{
-    display: inline-block;
-    align-content: baseline;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 100px 50px 100px 50px;
-    width: 100%;
-    margin: 1px 1px 3px 1px;
-    align-content: center;
-    color: white;
-    color-scheme: dark;
-    
-}
-#perguntas{
-    display: inline-block;
-    align-content: baseline;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 100px 50px 100px 50px;
-    width: 100%;
-    margin: 1px 1px 3px 1px;
-    align-content: center;
-    color: white;
-}
-.dark-textarea {
-    background-color: #333; 
-    color: #fff; 
-    width: 75%; 
-    height: 75px;
-    border: none;
-    padding: 5px;  
-    font-family: Arial, Helvetica, sans-serif; 
-    resize: none;
-    
-}
+
 #header{
     width: 600px;
 }
@@ -66,17 +35,12 @@ form{
 .navitem{
     cursor: pointer;
 }
-html {
-    color: #fff;
-    padding: 10px;
-    text-align: top;
-    justify-content: top;
-}
+
 .ponteiro {
     cursor: pointer;
 }
 .ponteiro:hover{
-  background-color: #fff7e0 ;
+    background-color: #fff7e0 ;
 }
 #lupa{
   text-align:right;
@@ -94,15 +58,40 @@ html {
 }
 #contact{
     text-align: center; 
-    color: black;
+    color: white;
     padding: 10px 10px 10px 10px;
     border: #ccc;	
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: white 1px 1px 1px 1px;
-    box-sizing: border-box;
+    
     border-radius: 30px;
     background: linear-gradient(135deg, #000000 0%, #00008B 100%);
+    
+}
 
+.campo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os elementos filhos */
+    margin-bottom: 10px; /* Espaçamento entre os pares rótulo/campo */
+  }
+
+.contato{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px 50px 100px 50px;
+
+    margin: 1px 1px 3px 1px;
+    align-content: center;
+    color: black;
+
+    
+}
+#perguntas{
+    border-radius: 100px 50px 100px 50px;
+    width: 100%;
+    margin: 1px 1px 3px 1px;
+    align-content: center;
+    color: white;
+    resize:none;
 }
 
 
@@ -112,63 +101,68 @@ html {
     padding: 10px; 
 }
 
-#containers{
-    width: 1100px;
-    height: 100%;
-    margin: auto;
+#containers {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     color: white;
 }
 
-#containers #card{
-    width: 300px;
-    height: auto;
-    padding: 10px 0;
+#containers #card {
+    width: 100%; 
+    margin: 10px;
+    padding: 20px;
     text-align: center;
     background: linear-gradient(135deg, #000000 0%, #00008B 100%);
     border-radius: 15px;
     box-shadow: 2px 5px 15px black;
     transition: transform 0.3s;
 }
-#containers #card:hover{
-    transform: scale(1.050);
+
+@media (min-width: 768px) {
+    /* A partir de telas com largura mínima de 768px, ajusta a largura dos cards */
+    #containers #card {
+        width: 100%; /* Define a largura dos cards para ocupar 30% da largura do contêiner */
+        max-width: initial; /* Remove a largura máxima para telas maiores */
+    }
 }
 
-#containers #card #titulo-card{
-    padding: 30px 20px;
+
+#containers #card:hover {
+    transform: scale(1.05);
+}
+
+#containers #card #titulo-card {
     border-bottom: 2px solid gray;
+    padding: 20px 0;
 }
 
-#containers #card #titulo-card h2{
-    font-size: 35px;
-    padding-bottom: 15px;
-    color: rgb(255, 255, 255);
+#containers #card #titulo-card h2 {
+    font-size: 28px; /* Tamanhos de fonte menores para telas menores */
+    padding-bottom: 10px;
 }
 
-#containers #card #titulo-card p span{
-    font-size: 40px;
+#containers #card #titulo-card p span {
+    font-size: 32px; /* Tamanhos de fonte menores para telas menores */
     padding: 0 5px;
 }
 
-#containers #card #conteudo-card ul{
-    padding: 10px 30px;
+#containers #card #conteudo-card ul {
+    padding: 10px 0;
     padding-bottom: 20px;
 }
 
-#containers #card #conteudo-card ul li{
+#containers #card #conteudo-card ul li {
     list-style: none;
-    padding: 10px 0;
+    padding: 5px 0; /* Espaçamento menor entre os itens da lista */
 }
 
-#containers #card #conteudo-card ul li i{
+#containers #card #conteudo-card ul li i {
     margin-right: 4px;
 }
 
-#containers #card #conteudo-card button{
-    width: 120px;
-    padding: 10px 20px;
+#containers #card #conteudo-card button {
+    width: 100%;
+    padding: 10px;
     background: white;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -176,18 +170,17 @@ html {
     border: none;
     cursor: pointer;
     transition: 0.3s;
+    color: black;
 }
 
-#containers #card #conteudo-card button:hover{
+#containers #card #conteudo-card button:hover {
     background: #17ead9;
     letter-spacing: 1.2px;
 }
 
-#containers #card #conteudo-card button a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-}
 hr{
     color: transparent;
+}
+.card-container {
+    text-align: center; 
 }
