@@ -144,9 +144,9 @@
                             </div>
                             <div id="conteudo-card">
                                 <ul>
-                                    <li><i class="fa fa-check-circle"></i>Cardápios acessíveis via QR code</li>
-                                    <li><i class="fa fa-times-circle"></i>Integração entre pedidos e cozinha</li>
-                                    <li><i class="fa fa-times-circle"></i>Integração com a entrega</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle"></i>Cardápios acessíveis via QR code</li>
+                                    <li class="naoAcessiveis"><i class="fa fa-times-circle"></i>Integração entre pedidos e cozinha</li>
+                                    <li class="naoAcessiveis"><i class="fa fa-times-circle"></i>Integração com a entrega</li>
                                 </ul>
                                 <button><a href="#">Contratar</a></button>
                             </div>
@@ -159,20 +159,20 @@
                                 <h2>Intermediário</h2> 
                                 <p class="subtitle">Pedidos integrados</p>
                                 <p><i class="preço"></i>R$<span>350</span>/mês</p>
-                            </div>  
+                            </div>   
                             <div id="conteudo-card">    
                                 <ul>  
-                                    <li><i class="fa fa-check-circle"></i>Cardápios acessíveis via QR code</li>
-                                    <li><i class="fa fa-check-circle"></i>Integração entre pedidos e cozinha</li>
-                                    <li><i class="fa fa-times-circle"></i>Integração com a entrega</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle"></i>Cardápios acessíveis via QR code</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle"></i>Integração entre pedidos e cozinha</li>
+                                    <li class="naoAcessiveis"><i class="fa fa-times-circle"></i>Integração com a entrega</li>
                                 </ul>
                                 <button><a href="#">Contratar</a></button>
-                            </div>
-                        </div>
+                            </div> 
+                        </div> 
                     </div>
                 <br>
-                    <div  class="col-md-4">
-                        <div class="card" id="card">   
+                    <div  class="col-md-4 ">
+                        <div class="card " id="card">   
                             <div id="titulo-card">
                                 <h2>Premium</h2> 
                                 <p class="subtitle">Delivery integrado</p>
@@ -180,75 +180,78 @@
                             </div>
                             <div id="conteudo-card">
                                 <ul>
-                                    <li><i class="fa fa-check-circle"></i>Cardápios acessíveis via QR code</li>
-                                    <li><i class="fa fa-check-circle"></i>Integração entre pedidos e cozinha</li>
-                                    <li><i class="fa fa-check-circle"></i>Integração com a entrega</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle "></i>Cardápios acessíveis via QR code</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle"></i>Integração entre pedidos e cozinha</li>
+                                    <li class="acessiveis"><i class="fa fa-check-circle"></i>Integração com a entrega</li>
                                 </ul>
                                 <button><a href="#">Contratar</a></button>
-                            </div>
+                            </div> 
                         </div>    
                     </div>
-                </div>
+                </div> 
             </div>  
             <br>
-            <div class=" flex-column align-items-center d-sm-flex" id="contact ">
-                <a id="destino-do-contato"></a>
-                <div class="card-body text-center shadow" id="contact">              
-                    <h1 id="titulo">Entre em contato:</h1> 
-                    <div class="border-top">
-                        <form class="camp" id="contact">
-                            <div class="contato " id="">
-                                <div class="campo" id="">
-                                    <div class="campo">
-                                        <label for="nome">                                        
-                                        .<img src="https://cdn3.iconfinder.com/data/icons/customer-experience-1/32/Customer-64.png"
-                                        alt="mestreCuca" width="45">
-                                        </label><br>
-                                        <input type="text" name="nome" id="nome" class="contato" placeholder="Seu Nome" required >
+            <div class=" flex-column align-items-center d-sm-inline-flex " id="contact ">
+                <a id="destino-do-contato"></a> 
+                
+                    <div class="card-body text-center shadow" id="contact">              
+                        <h1 id="titulo">Entre em contato:</h1> 
+                        <div class="border-top"> 
+                            <form class="" id="contact">
+                                <div class="contato " id="">            
+                                    <div class="campo">        
+                                            <label for="nome">                                          
+                                            .<img src="https://cdn3.iconfinder.com/data/icons/customer-experience-1/32/Customer-64.png"
+                                            alt="mestreCuca" width="45">
+                                            </label><br>
+                                            <input type="text" name="nome" id="nome" class="contato" placeholder="Seu Nome" required >
+                                        </div>  
+                                    <div class="campo"> 
+                                        <label for="nomerestaurante">
+                                            .<img src="https://cdn2.iconfinder.com/data/icons/zoo-12/64/food-spoon-knife-restaurant-64.png"
+                                                alt="mestreCuca" width="45" >
+                                    </label><br>
+                                        <input type="text" name="nomerestaurante" id="nomerestaurante" class="contato"  placeholder="Nome da Empresa" required  >
                                     </div>  
-                                </div>   
-                                <div class="campo"> 
-                                    <label for="nomerestaurante">
-                                        .<img src="https://cdn2.iconfinder.com/data/icons/zoo-12/64/food-spoon-knife-restaurant-64.png"
-                                            alt="mestreCuca" width="45" >
-                                </label><br>
-                                    <input type="text" name="nomerestaurante" id="nomerestaurante" class="contato"  placeholder="Nome da Empresa" required  >
+                                    <div class="campo">
+                                        <label for="email">
+                                            <img src="https://cdn4.iconfinder.com/data/icons/online-shop-7/128/message-envelope-email-256.png"
+                                                alt="mail" width="45">
+                                        </label><br>
+                                        <input type="email" nome="email" placeholder="E-mail" class="contato" required >
+                                    </div>
+                                    <div class="campo">
+                                        <label for="telefone">
+                                            .<img src="https://cdn4.iconfinder.com/data/icons/work-space-8/512/smartphone_phone_communication_internet_screen-256.png"
+                                                alt="zapzap" width="40">
+                                        </label>
+                                        <input type="tel" placeholder="Telefone" nome="telefone" id="telefone" class="contato" required >
+                                    </div>
                                 </div> 
-                                <div class="campo">
-                                    <label for="email">
-                                        <img src="https://cdn4.iconfinder.com/data/icons/online-shop-7/128/message-envelope-email-256.png"
-                                            alt="mail" width="45">
-                                    </label><br>
-                                    <input type="email" nome="email" placeholder="E-mail" class="contato" required >
+                                <div class="" >   
+
+                                    <p>Qual o melhor plano para você?<p>
+                                    
+                                    <label>
+                                        <input type="radio" name="plano"  value="basico" checked> Básico
+                                    </label>
+                                    
+                                    <label>
+                                        <input type="radio" name="plano" value="intermediario"> Intermediário
+                                    </label>
+                                    
+                                    <label>
+                                        <input type="radio" name="plano" value="premium"> Premium
+                                    </label>
+
                                 </div>
-                                <div class="campo">
-                                    <label for="telefone">
-                                        .<img src="https://cdn4.iconfinder.com/data/icons/work-space-8/512/smartphone_phone_communication_internet_screen-256.png"
-                                            alt="zapzap" width="40">
-                                    </label><br>
-                                    <input type="tel" placeholder="Telefone" nome="telefone" id="telefone" class="contato" required >
+                                <div class="text-center justify-content-center">
+                                    <label for="mensagem" id="perguntas"> Perguntas: </label>
+                                    <textarea style="width: 75%" id="mensagem" name="mensagem" id="perguntas" class="text-black-50" placeholder="Deixe sua mensagem aqui..." required></textarea>
+                                    <button type="submit">Enviar</button>
                                 </div>
-                            </div> 
-                            <div class="" ><br>
-                                <p>Qual o melhor plano para você?<p>
-                                <label>
-                                    <input type="radio" name="plano"  value="basico" checked> Básico
-                                </label>
-                                <br>
-                                <label>
-                                    <input type="radio" name="plano" value="intermediario"> Intermediário
-                                </label>
-                                <br>
-                                <label>
-                                    <input type="radio" name="plano" value="premium"> Premium
-                                </label>
-                            </div>
-                            <div class="text-center justify-content-center">
-                                <label for="mensagem" id="perguntas"> Perguntas: </label>
-                                <textarea style="width: 75%" id="mensagem" name="mensagem" id="perguntas"                 class="text-black-50" placeholder="Deixe sua mensagem aqui..." required></textarea>
-                                <button type="submit">Enviar</button>
-                            </div>
-                        </form>    
+                            </form>    
+                        </div>
                     </div>
                 </div>
             </div>
