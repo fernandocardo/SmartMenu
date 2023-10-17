@@ -50,11 +50,13 @@ form{
     align-self: right;
 }
 #contact{
-    box-sizing: border-box;
+    text-align: center;
+    size: 100px;
+    box-sizing: content-box;
     margin:10px 10px 10px 10px;
     text-align: center; 
     color: white;
-    padding: 5px;
+    padding: 10px;
     border: #ccc;	
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 30px;
@@ -182,4 +184,7 @@ hr{
 }
 .naoAcessiveis{
     color: red;
+}
+footer{
+  background-color: #00008B;
 }
