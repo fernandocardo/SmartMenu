@@ -60,7 +60,8 @@ form{
     border: #ccc;	
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 30px;
-    background: linear-gradient(135deg, #000000 0%, #00008B 100%);
+    background-color: #00008B;
+    /* background: linear-gradient(135deg, #000000 0%, #00008B 100%); */
 }
 
 .campo {
@@ -186,5 +187,9 @@ hr{
     color: red;
 }
 footer{
-  background-color: #00008B;
+  background-color: #2b2b80;
+  box-shadow: #000000 0px 0px 10px;
+}
+.shadow-lg{
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15) !important;
 }
