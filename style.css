@@ -1,6 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;       
+    font-size: 15px;       
 }
 
 textarea{
@@ -18,19 +18,6 @@ textarea{
     resize: none;
 }
 
-.contato{
-    display: inline-block;
-    align-content: baseline;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 100px 50px 100px 50px;
-    width: 100%;
-    margin: 1px 1px 3px 1px;
-    align-content: center;
-    color: #fff;
-}
 
 #header{
     width: 600px;
@@ -41,17 +28,12 @@ form{
 .navitem{
     cursor: pointer;
 }
-html {
-    color: #fff;
-    padding: 10px;
-    text-align: top;
-    justify-content: top;
-}
+
 .ponteiro {
     cursor: pointer;
 }
 .ponteiro:hover{
-  background-color: #fff7e0 ;
+    background-color: #fff7e0 ;
 }
 #lupa{
   text-align:right;
@@ -61,14 +43,153 @@ html {
 }
 #navbar{
     text-align: right;
+    align-items: right;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    align-self: right;
 }
 #contact{
+    text-align: center;
+    size: 100px;
+    box-sizing: content-box;
+    margin:10px 10px 10px 10px;
     text-align: center; 
-    color: #fff;
-    background-color: black;
-    padding: 10px 10px 10px 10px;
+    color: white;
+    padding: 10px;
     border: #ccc;	
-    text-shadow: blue 1px 1px;
-    box-shadow: blue 1px 1px 1px 1px;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    background-color: #00008B;
+    /* background: linear-gradient(135deg, #000000 0%, #00008B 100%); */
+}
+
+.campo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os elementos filhos */
+    margin-bottom: 10px; /* Espaçamento entre os pares rótulo/campo */
+  }
+
+.contato{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px 50px 100px 50px;
+    width:  85%;
+    margin: 1px 1px 3px 1px;
+    align-content: center;
+    color: black;
+
+    
+}
+#perguntas{
+    border-radius: 100px 50px 100px 50px;
+    width: 100%;
+    margin: 1px 1px 3px 1px;
+    align-content: center;
+    color: white;
+    resize:none;
+}
+
+
+#titulo {
+    text-align: center; 
+    color: white; 
+    padding: 10px; 
+}
+
+#containers {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#containers #card {
+    width: 100%; 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #000000 0%, #00008B 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.5s;
+}
+
+@media (min-width: 768px) {
+    /* A partir de telas com largura mínima de 768px, ajusta a largura dos cards */
+    #containers #card  {
+        width: 75%; /* Define a largura dos cards para ocupar 30% da largura do contêiner */
+        max-width: initial; 
+    }
+}
+
+
+#containers #card:hover {
+    transform: scale(1.05);
+}
+
+#containers #card #titulo-card {
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+}
+
+#containers #card #titulo-card h2 {
+    font-size: 28px; /* Tamanhos de fonte menores para telas menores */
+    padding-bottom: 10px;
+}
+
+#containers #card #titulo-card p span {
+    font-size: 32px; /* Tamanhos de fonte menores para telas menores */
+    padding: 0 5px;
+}
+
+#containers #card #conteudo-card ul {
+    padding: 10px 0;
+    padding-bottom: 20px;
+}
+
+#containers #card #conteudo-card ul li {
+    list-style: none;
+    padding: 5px 0; /* Espaçamento menor entre os itens da lista */
+}
+
+#containers #card #conteudo-card ul li i {
+    margin-right: 4px;
+}
+
+#containers #card #conteudo-card button {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+}
+
+#containers #card #conteudo-card button:hover {
+    background: #17ead9;
+    letter-spacing: 1.2px;
+}
+
+hr{
+    color: transparent;
+}
+.card-container {
+    text-align: center; 
+}
+.acessiveis{
+    color: rgb(84, 212, 84);
+}
+.naoAcessiveis{
+    color: red;
+}
+footer{
+  background-color: #2b2b80;
+  box-shadow: #000000 0px 0px 10px;
+}
+.shadow-lg{
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15) !important;
 }
