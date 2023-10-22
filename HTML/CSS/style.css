@@ -3,6 +3,7 @@ html{
     font-size: 15px;       
 }
 
+
 textarea{
     display: inline-block;
     align-content: baseline;
@@ -186,10 +187,7 @@ hr{
 .naoAcessiveis{
     color: red;
 }
-footer{
-  background-color: #2b2b80;
-  box-shadow: #000000 0px 0px 10px;
-}
+
 .shadow-lg{
     box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.15) !important;
 }
