@@ -21,5 +21,3 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 ### Lukauê Cordeiro Alves dos Santos
 ### [Mariana Parpinelli de Britto](https://www.linkedin.com/in/mariana-parpinelli-de-britto-71a69059/)
 ### [Renata Valido dos Santos](https://www.linkedin.com/in/renata-valido/)
-
-## Agradecimentos
