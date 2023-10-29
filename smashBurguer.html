@@ -2,9 +2,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <title>Loja de Comidas - Produtos</title>
     <!-- Importe o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
@@ -12,13 +13,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script src="JavaScript/script.js"></script>
 </head>
-<!-- Isso é um comentário-->
 
 <body >
+
     <header>
         <nav class="navbar navbar-expand-lg  navbar-light bg-white fixed-top" id="navbar">
             <a class="navbar-brand" href="#">
-                <img src="imagens/SmashBurguer-Logo.jpeg" alt="Logo do Meu Site" width="150" height="150"
+                <img src="imagens/SmashBurguer-Logo.png" alt="Logo do Meu Site" width="150" height="150"
                     class="d-inline-block align-top"></a>          
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +35,9 @@
         </nav> <br><br><br><Br><br><br><br><br>
         <img src="https://cdn-icons-png.flaticon.com/512/5008/5008618.png" alt="Imagem de rolagem"
             onclick="rolarParaDestino('ponto-de-destino')" width="50" height="50" class="ponteiro float-right">
-        </div>
     </header>
-    </div>
+
+    <main>
     <div class="container btn-group-sm" id="clientes">
         <h2>Menu</h2>
         <div class="row">
@@ -67,7 +68,6 @@
                     </div>
                 </div>
             </div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <br>
             <div class="col-sm-6" width="350" height="350">
                 <div class="card shadow">
@@ -99,9 +99,10 @@
             </div>
         </div>
     </div>
-
+</main>
+<footer>
     <div class="container">
-        
+
         <a id="ponto-de-destino"></a>
 
         <h1>Carrinho de Compras</h1>
@@ -110,10 +111,8 @@
         <button class="btn btn-primary" onclick="finalizarCompra()">Finalizar Compra</button>
     </div>
 
-
     <script src="carrinho.js"></script>
-
-
+</footer>
 </body>
 
 </html>
