@@ -23,9 +23,10 @@ Projeto da materia de Empreendedorismo e transformaçao digital, onde o objetivo
 
 ## Agradecimentos Especiais
 
-- [Fernando Cardo](https://www.linkedin.com/in/fernandoduartecardo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-- Prof. Sergio João Guimaraes da Silva
-- Prof. Gabriel Nunes Galan
+#### [Fernando Cardo](https://www.linkedin.com/in/fernandoduartecardo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+#### Prof. Sergio João Guimaraes da Silva
+#### Prof. Gabriel Nunes Galan
+#### Prof. Hebert Bratefixe Alquimim
 
 
 
