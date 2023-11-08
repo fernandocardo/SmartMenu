@@ -1,18 +1,53 @@
-# Relatório Técnico - Projeto de Empreendedorismo e Transformação Digital - SmartMenu - 
+# Relatório Técnico - Projeto SmartMenu 
 ## Introdução
 
-O projeto integrador pré-requisito para a completude do segundo semestre do curso de Análise e desenvolvimento de sistemas, consistiu na criação de uma empresa fictícia, bem como a estruturação de sua presença digital por meio do desenvolvimento de um site institucional para a empresa. 
+Em um cenário gastronômico em constante evolução, impulsionado pela revolução tecnológica, apresentamos o projeto SmartMenu. Este ambicioso empreendimento surge como resposta às crescentes demandas por inovação e eficiência no setor de alimentação. O SmartMenu visa transformar a experiência gastronômica por meio da implementação abrangente de cardápios digitais. Com a sociedade cada vez mais conectada e consumidores buscando praticidade, personalização e segurança, a digitalização dos cardápios não é apenas uma necessidade, mas uma oportunidade de redefinir a forma como os estabelecimentos alimentícios interagem com seus clientes.
+
+Ao combinar tecnologia avançada, design intuitivo e funcionalidades inovadoras, o SmartMenu não é apenas uma solução para a atualidade, mas uma visão estratégica para o futuro do setor. Neste documento, exploraremos detalhadamente os objetivos do projeto, os benefícios esperados para os estabelecimentos e clientes, bem como as estratégias de implementação que garantirão uma transição suave para a era digital dos cardápios. Prepare-se para uma jornada que não apenas simplificará processos, mas também elevará a experiência culinária a patamares inexplorados.
 
 ## Descrição do Projeto
+ 
+###  Visão Geral
+O projeto SmartMenu visa revolucionar a indústria de serviços alimentícios por meio da implementação abrangente de cardápios digitais em estabelecimentos gastronômicos. A proposta técnica se baseia na criação de uma plataforma robusta e intuitiva que proporciona aos clientes uma experiência gastronômica personalizada e eficiente, ao mesmo tempo em que otimiza os processos operacionais para os estabelecimentos parceiros.
 
-O site institucional foi desenvolvido para apresentar e comercializar os planos da empresa. 
-Segundo o plano de negócio desenvolvido para a empresa, foram desenhados três produtos, Os quais serão descritos à seguir:
+### Objetivos Técnicos 
 
-- Plano Básico: inclui um cardápio digital via QR code.
+1. Desenvolvimento da Plataforma: Implementar uma plataforma centralizada que permita aos estabelecimentos criar e gerenciar facilmente seus cardápios digitais.
 
-- Plano Intermediário: propõe integrar o cardápio com o sistema interno de pedidos. 
+2. Integração com Sistemas Existentes: Garantir a integração perfeita do SmartMenu com os sistemas de gerenciamento de pedidos e inventário já em uso pelos estabelecimentos.
 
-- Plano Premium: inclui todos os recursos dos planos anteriores e também oferece a integração com serviços de delivery.
+3. Design Intuitivo e Responsivo: Criar uma interface de usuário intuitiva e atraente para clientes, garantindo uma experiência de navegação fluida em diversos dispositivos.
+
+4. Segurança e Privacidade: Incorporar medidas de segurança robustas para proteger dados sensíveis dos clientes e garantir a privacidade das informações.
+
+5. Customização Flexível: Permitir que cada estabelecimento personalize seu cardápio de acordo com suas necessidades específicas, incluindo opções de design, categorização e preços.
+
+### Arquitetura Técnica
+
+1. #### Front-end:
+- Utilização de tecnologias web modernas como HTML para desenvolver o site dos cardapios de forma que ao integrar o CSS a estilização fique agradavel ao usuario e ao JavaScript que possibilita a parte de animações, APIs e responsividades.
+
+- Implementação de design responsivo para garantir uma experiência consistente em dispositivos variados.
+
+2. #### Backend:
+
+- Desenvolvimento de uma API robusta utilizando JavaScript para suportar a comunicação entre o frontend e o banco de dados.
+
+- Utilização de um banco de dados relacional para armazenar informações críticas de cardápios e pedidos.
+
+3. #### Segurança:
+- Implementação de protocolos HTTPS para garantir a segurança na transmissão de dados.
+
+- Uso de práticas de criptografia para proteger informações sensíveis armazenadas no banco de dados.
+
+### Metodologia de Desenvolvimento
+O projeto seguirá uma abordagem ágil, com ciclos de desenvolvimento iterativos, permitindo uma adaptação contínua aos requisitos em evolução. A colaboração próxima com os clientes e estabelecimentos parceiros será incentivada para garantir que as soluções propostas atendam às necessidades reais do setor.
+
+### Testes e Garantia de Qualidade
+Serão realizados testes abrangentes em todas as fases do desenvolvimento, incluindo testes de unidade, integração e aceitação do usuário. A garantia de qualidade será uma prioridade para assegurar a estabilidade, desempenho e confiabilidade da plataforma.
+
+### Conclusão da Visão Geral
+O projeto SmartMenu representa não apenas a digitalização de cardápios, mas a transformação completa da experiência gastronômica. Com uma abordagem técnica sólida, focada em inovação, segurança e eficiência, buscamos criar uma solução que não apenas atenda, mas exceda as expectativas dos clientes e estabelecimentos parceiros. Este documento serve como base para o desenvolvimento e implementação bem-sucedidos do SmartMenu, pavimentando o caminho para um futuro mais conectado e eficiente na indústria de serviços alimentícios.
 
 ## Plano de Negócio
 
@@ -73,3 +108,6 @@ A equipe também expressou satisfação com o resultado final do projeto, com de
 ## Conclusão
 O projeto de desenvolvimento do site da Smart Menu foi bem-sucedido, com a equipe superando desafios técnicos e alcançando os principais marcos.<br> 
 Este projeto representa uma jornada recompensadora e satisfatória para todos os envolvidos, incluindo aqueles em processo de aprendizado, com destaque para o uso do Bootstrap e outras tecnologias essenciais.<br>
+
+
+

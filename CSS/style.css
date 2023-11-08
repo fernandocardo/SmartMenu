@@ -37,7 +37,7 @@ form{
     background-color: #fff7e0 ;
 }
 #lupa{
-  text-align:right;
+    text-align:right;
 }
 #nav{
     text-align: center;
@@ -69,7 +69,7 @@ form{
     display: flex;
     align-items: center; /* Alinha verticalmente os elementos filhos */
     margin-bottom: 10px; /* Espaçamento entre os pares rótulo/campo */
-  }
+}
 
 .contato{
     padding-left: 10px;
@@ -79,8 +79,6 @@ form{
     margin: 1px 1px 3px 1px;
     align-content: center;
     color: black;
-
-    
 }
 #perguntas{
     border-radius: 100px 50px 100px 50px;
