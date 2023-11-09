@@ -47,12 +47,22 @@ O projeto seguirá uma abordagem ágil, com ciclos de desenvolvimento iterativos
 Serão realizados testes abrangentes em todas as fases do desenvolvimento, incluindo testes de unidade, integração e aceitação do usuário. A garantia de qualidade será uma prioridade para assegurar a estabilidade, desempenho e confiabilidade da plataforma.
 
 ### Conclusão da Visão Geral
-O projeto SmartMenu representa não apenas a digitalização de cardápios, mas a transformação completa da experiência gastronômica. Com uma abordagem técnica sólida, focada em inovação, segurança e eficiência, buscamos criar uma solução que não apenas atenda, mas exceda as expectativas dos clientes e estabelecimentos parceiros. Este documento serve como base para o desenvolvimento e implementação bem-sucedidos do SmartMenu, pavimentando o caminho para um futuro mais conectado e eficiente na indústria de serviços alimentícios.
+O projeto SmartMenu representa não apenas a digitalização de cardápios, mas a transformação completa da experiência gastronômica. Com uma abordagem técnica sólida, focada em inovação, segurança e eficiência, buscamos criar uma solução que não apenas atenda, mas exceda as expectativas dos clientes e estabelecimentos parceiros. Este documento serve como base para o desenvolvimento e implementação bem-sucedidos do plano de negócios da empresa SmartMenu, pavimentando o caminho para um futuro mais conectado e eficiente na indústria de serviços alimentícios.
 
 ## Plano de Negócio
 
-A empresa fictícia Smart Menu é uma empresa de tecnologia que oferece soluções para digitalizar cardápios de restaurantes e bares, alavancando seu faturamento por meio da automação.<br>
-O plano de negócio foi desenvolvido com base em uma pesquisa de mercado, que incluiu a análise de concorrentes e a identificação de oportunidades de negócios.<br>
+Assim como as receitas de bons restaurantes são únicas, a SmartMenu também possui uma solução desenhada para cada empreendimento. Nós construímos e fortalecemos a estrutura de um negócio gastronômico, reduzindo seus custos operacionais por meio de automação e construindo sua imagem e conceito, oferecendo soluções digitais disruptivas.
+Identificar estas dores no segmento gastronômico, foi a motivação inicial para o desenvolvimento do plano de negócio da SmartMenu.
+
+### Descrição do Negócio
+Desenvolvemos um sistema de planos de assinatura para digitalização de cardápios, com o objetivo de reduzir os custos operacionais dos estabelecimentos gastronômicos e aumentar a satisfação dos clientes. A SmartMenu oferece uma solução completa para a digitalização de cardápios, incluindo a criação de um site personalizado, a integração com sistemas de gerenciamento de pedidos e inventário. A plataforma também oferece uma variedade de recursos adicionais, como a criação de um programa de fidelidade e a integração com aplicativos de entrega. A SmartMenu oferece três planos de assinatura, com diferentes níveis de personalização e funcionalidades, para atender às necessidades específicas de cada estabelecimento.
+
+![Plano Basico](/imagens/imgsRelatorio/planoBasico.png)
+![Plano Intermediario](/imagens/imgsRelatorio/planoIntermediario.png)
+![Plano Premium](/imagens/imgsRelatorio/planoPremium.png)
+
+
+
 
 ## Descrição do Site
 
